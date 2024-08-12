@@ -19,7 +19,7 @@ export const data = [
     id: 3,
     img: 'https://i.postimg.cc/8Cv1vS8K/parking.jpg',
     title: "Smart Car Parking System",
-    link: "",
+    link: "https://drive.google.com/file/d/1ug3newf6qdGpxI7I0gdYY8o9Imj81xXi/view?usp=drive_link",
     git: "https://github.com/subhrapratim07/CarParkingAutoParkIQ",
   }
   

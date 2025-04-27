@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+import resumePDF from "../../assets/Subhra.pdf";
 
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm Web Dev
+            <p> Hello all ! I'm {'>'}.</p>   
             </h2>
             <TypeAnimation
               data-aos="fade-up"
@@ -39,10 +39,11 @@ const Hero = () => {
             />
             <p
               // data-aos="fade-up"
-              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
+              className=" text-[1.1rem] font-bold w-3/4 md:w-full text-black-600 sm:text-[.95rem]"
             >
               SUBHRA PRATIM MONDAL
             </p>
+            <p>// Scroll down to explore my world</p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a

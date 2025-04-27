@@ -27,11 +27,26 @@ const Resume = () => {
             </legend>
             <div className=" relative">
               {/* design */}
-              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-              </div>
+              <div className="design absolute left-[-30px] top-1 h-full flex flex-col items-center sm:left-[-160px]">
+  {/* Vertical Line */}
+
+  <div className="w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500 my-2"></div>
+
+  <div className="w-[2px] bg-gray-300 flex-1 "></div>
+
+  
+  {/* Line between B.Sc and M.Sc */}
+  <div className="w-[2px] bg-gray-300 h-[100px]"></div> {/* Adjust height manually */}
+
+  {/* Second Bullet for M.Sc */}
+  <div className="w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500 my-2"></div>
+
+  {/* End line (if you want some extra space below) */}
+  <div className="w-[2px] bg-gray-300 flex-1"></div>
+
+  <div className="w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500 my-2"></div>
+
+</div>
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
@@ -41,7 +56,7 @@ const Resume = () => {
                 fibonacci research
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  April 2024 - May 2024
+                  Jan 2024 - May 2024
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 I joined a internship, 
@@ -55,6 +70,25 @@ const Resume = () => {
                  valuable insights into the financial markets and the 
                  practical applications of automated trading systems.
                 </p>
+
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                   Participants
+
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                ICDMAI 2025 hackathon
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  22 Dec 2024
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                Our team, Ctrl+Alt+Elite,
+                We presented our work on "Instant Micro-Credit Scoring from 
+                Digital Footprints"—a topic we are deeply passionate about.
+                </p>
+
+
+
               </div>
             </div>
           </fieldset>
@@ -69,11 +103,28 @@ const Resume = () => {
             </legend>
             <div className=" relative">
               {/* design */}
-              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-              </div>
+              {/* Left Timeline Design */}
+<div className="design absolute left-[-30px] top-1 h-full flex flex-col items-center sm:left-[-160px]">
+  {/* Vertical Line */}
+
+  <div className="w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500 my-2"></div>
+
+  <div className="w-[2px] bg-gray-300 flex-1 "></div>
+
+  
+  {/* Line between B.Sc and M.Sc */}
+  <div className="w-[2px] bg-gray-300 h-[100px]"></div> {/* Adjust height manually */}
+
+  {/* Second Bullet for M.Sc */}
+  <div className="w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500 my-2"></div>
+
+  {/* End line (if you want some extra space below) */}
+  <div className="w-[2px] bg-gray-300 flex-1"></div>
+
+  <div className="w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500 my-2"></div>
+
+</div>
+
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
@@ -95,6 +146,22 @@ const Resume = () => {
                  data structures, and computer architecture. 
                  This diverse skill set has prepared me well 
                  for a career in software development.
+                </p>
+                {/*msc*/}
+
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  M.Sc, Computer Science
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  University of calcutta,Technology Campus
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Year 2024 - Year 2026
+                </span>
+                <p className=" text-[.9rem] text-justify text-gray-500">
+                Currently, I am pursuing my M.Sc. in Computer Science
+                at the University of Calcutta, further strengthening
+                my knowledge and skills in this field.
                 </p>
               </div>
             </div>

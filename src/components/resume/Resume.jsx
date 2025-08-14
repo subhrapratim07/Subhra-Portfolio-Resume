@@ -53,7 +53,7 @@ const Resume = () => {
                   Main Coder
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                fibonacci research
+               Fr Global Macro Private Limited
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Jan 2024 - May 2024

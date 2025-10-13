@@ -3,10 +3,10 @@
 export const data = [
   {
     id: 1,
-    img: 'https://i.postimg.cc/RhpZVSbt/filehider.jpg',
-    title: "File Hider App",
-    link: "https://filehider.netlify.app",
-    git: "https://github.com/subhrapratim07/FileHider.git",
+    img: 'https://i.postimg.cc/zfzpsTJS/Screenshot-208.png',
+    title: "Cravory Restaurant",
+    link: "https://cravoryspm.netlify.app",
+    git: "https://github.com/subhrapratim07/Subhra-Portfolio-Resume.git",
   },
   
   {

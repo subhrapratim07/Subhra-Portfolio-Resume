@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- ================= BASIC META ================= -->
     <meta charset="UTF-8" />
-    <link rel="icon" href="./src/assets/favicon.ico" type="image/x-icon" />
-    <!-- Additional favicon formats for different devices -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon-16x16.png">
-    <link rel="manifest" href="./src/assets/site.webmanifest">
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Subhra - Portfolio</title>
+
+    <!-- ================= SEO TITLE (MOST IMPORTANT) ================= -->
+    <title>Subhra Pratim Mondal | Full Stack Developer | MSc Computer Science</title>
+
+    <!-- ================= SEO DESCRIPTION ================= -->
+    <meta
+      name="description"
+      content="Subhra Pratim Mondal is a Full Stack Web Developer and MSc Computer Science student at the University of Calcutta. View portfolio, projects, resume and contact details."
+    />
+
+    <!-- ================= SEO KEYWORDS ================= -->
+    <meta
+      name="keywords"
+      content="Subhra Pratim Mondal, Subhra Mondal, Full Stack Developer Kolkata, Web Developer, MSc Computer Science, University of Calcutta, Software Engineer Portfolio"
+    />
+
+    <!-- ================= AUTHOR ================= -->
+    <meta name="author" content="Subhra Pratim Mondal" />
+
+    <!-- ================= CANONICAL URL ================= -->
+    <link rel="canonical" href="https://subhra-portfolio.netlify.app/" />
+
+    <!-- ================= FAVICONS ================= -->
+    <link rel="icon" href="./src/assets/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon-16x16.png" />
+    <link rel="manifest" href="./src/assets/site.webmanifest" />
+
+    <!-- ================= OPEN GRAPH (GOOGLE + LINKEDIN) ================= -->
+    <meta property="og:title" content="Subhra Pratim Mondal | Full Stack Developer" />
+    <meta property="og:description" content="Portfolio of Subhra Pratim Mondal, Full Stack Web Developer and MSc Computer Science student at University of Calcutta." />
+    <meta property="og:url" content="https://subhra-portfolio.netlify.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- ================= AOS ================= -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- ================= GOOGLE PERSON SCHEMA (VERY IMPORTANT) ================= -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Subhra Pratim Mondal",
+        "url": "https://subhra-portfolio.netlify.app/",
+        "jobTitle": "Full Stack Developer",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Calcutta"
+        },
+        "sameAs": [
+          "https://github.com/subhrapratim07"
+        ]
+      }
+    </script>
   </head>
+
   <body class="dark">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

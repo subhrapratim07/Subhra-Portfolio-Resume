@@ -1,0 +1,54 @@
+/* ===========================
+   SPM Portfolio — Global Styles
+   Black & White Editorial Theme
+   =========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove yellow from old color scheme */
+.text-yellow-500 { color: #fff !important; }
+.bg-yellow-400, .bg-yellow-500 { background: #fff !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.15);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+/* Selection */
+::selection {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+}
+
+/* Smooth section transitions */
+section, [id] {
+  scroll-margin-top: 80px;
+}

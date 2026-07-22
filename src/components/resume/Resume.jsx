@@ -172,6 +172,22 @@ const Resume = () => {
             </div>
 
             <div className="timeline-item">
+  <div className="timeline-date">Jul 2020 — Present</div>
+  <div className="timeline-role">Treasurer & Education Coordinator</div>
+  <div className="timeline-org">Icchepuron NGO</div>
+  <div className="timeline-desc">
+    Served as Treasurer, managing the organization's annual budget and ensuring
+    financial accountability. Coordinated educational initiatives, curriculum
+    planning, and operational activities, contributing to quality education for
+    more than 500 underprivileged students.
+  </div>
+  <span className="timeline-tag">Leadership</span>
+  <span className="timeline-tag">Finance</span>
+  <span className="timeline-tag">Education</span>
+  <span className="timeline-tag">NGO</span>
+</div>
+
+            <div className="timeline-item">
               <div className="timeline-date">22 Dec 2024</div>
               <div className="timeline-role">Participant</div>
               <div className="timeline-org">ICDMAI 2025 Hackathon</div>
@@ -184,36 +200,51 @@ const Resume = () => {
             </div>
           </div>
 
-          {/* Education Column */}
-          <div>
-            <div className="resume-col-label">02 — Education</div>
+         {/* Education Column */}
+<div>
+  <div className="resume-col-label">02 — Education</div>
 
-            <div className="timeline-item">
-              <div className="timeline-date">2024 — 2026</div>
-              <div className="timeline-role">M.Sc, Computer Science</div>
-              <div className="timeline-org">University of Calcutta, Technology Campus</div>
-              <div className="timeline-desc">
-                Currently pursuing M.Sc. in Computer Science, further strengthening
-                knowledge and skills in advanced computing and research areas.
-              </div>
-              <span className="timeline-tag">Ongoing</span>
-            </div>
+  <div className="timeline-item">
+    <div className="timeline-date">2026 — 2028</div>
+    <div className="timeline-role">M.Tech, Computer Science & Engineering</div>
+    <div className="timeline-org">University of Calcutta, Technology Campus</div>
+    <div className="timeline-desc">
+      Admitted to the M.Tech in Computer Science program. Preparing to build
+      advanced expertise in artificial intelligence, software engineering,
+      distributed systems, and research through industry-oriented coursework.
+    </div>
+    <span className="timeline-tag">Ongoing</span>
+  </div>
 
-            <div className="timeline-item">
-              <div className="timeline-date">2021 — 2024</div>
-              <div className="timeline-role">B.Sc, Computer Science</div>
-              <div className="timeline-org">Asutosh College, University of Calcutta</div>
-              <div className="timeline-desc">
-                Developed proficiency in Python, Java, C, Shell, HTML, and CSS.
-                Gained knowledge in DBMS, deep learning, machine learning,
-                data structures, and computer architecture.
-              </div>
-              <span className="timeline-tag">Python</span>
-              <span className="timeline-tag">Java</span>
-              <span className="timeline-tag">ML/DL</span>
-              <span className="timeline-tag">DBMS</span>
-            </div>
-          </div>
+  <div className="timeline-item">
+    <div className="timeline-date">2024 — 2026</div>
+    <div className="timeline-role">M.Sc, Computer Science</div>
+    <div className="timeline-org">University of Calcutta, Technology Campus</div>
+    <div className="timeline-desc">
+      Completed M.Sc. in Computer Science with advanced studies in computing,
+      software development, and research. Served as the Class Representative
+      and Placement Coordinator, coordinating academic activities and acting
+      as a liaison between students, faculty, and the placement cell.
+    </div>
+    <span className="timeline-tag">Class Representative</span>
+    <span className="timeline-tag">Placement Coordinator</span>
+  </div>
+
+  <div className="timeline-item">
+    <div className="timeline-date">2021 — 2024</div>
+    <div className="timeline-role">B.Sc, Computer Science</div>
+    <div className="timeline-org">Asutosh College, University of Calcutta</div>
+    <div className="timeline-desc">
+      Developed proficiency in Python, Java, C, Shell, HTML, and CSS.
+      Gained knowledge in DBMS, deep learning, machine learning,
+      data structures, and computer architecture.
+    </div>
+    <span className="timeline-tag">Python</span>
+    <span className="timeline-tag">Java</span>
+    <span className="timeline-tag">ML/DL</span>
+    <span className="timeline-tag">DBMS</span>
+  </div>
+</div>
         </div>
       </div>
     </div>

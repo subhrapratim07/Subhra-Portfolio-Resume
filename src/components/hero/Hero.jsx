@@ -268,14 +268,14 @@ const Hero = () => {
 
         .hero-img-frame::before {
           top: -8px; left: -8px;
-          border-top: 1px solid rgba(255,255,255,0.22);
-          border-left: 1px solid rgba(255,255,255,0.22);
+          border-top: 0px solid rgba(255,255,255,0.22);
+          border-left: 0px solid rgba(255,255,255,0.22);
         }
 
         .hero-img-frame::after {
           bottom: -8px; right: -8px;
-          border-bottom: 1px solid rgba(255,255,255,0.22);
-          border-right: 1px solid rgba(255,255,255,0.22);
+          border-bottom: 0px solid rgba(255,255,255,0.22);
+          border-right: 0px solid rgba(255,255,255,0.22);
         }
 
         .hero-img-frame img {

@@ -7,7 +7,7 @@ import {
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Subhra-Pratim-Mondal.pdf";
+import resumePDF from "../../assets/Subhra-Portfolio-Resume.pdf";
 
 const Hero = () => {
   return (

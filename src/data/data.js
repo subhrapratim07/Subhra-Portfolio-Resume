@@ -25,7 +25,7 @@ export const data = [
     img: "https://i.ibb.co/XZwCzw3C/cravory.jpg",
     title: "CRAVORY - A Restaurant App For Easy Ordering",
     link: "https://cravoryspm.netlify.app",
-    git: "https://github.com/subhrapratim07/Subhra-Portfolio-Resume.git",
+    git: "https://github.com/subhrapratim07/CRAVORY",
   },
   {
     id: 5,

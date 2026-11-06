@@ -15,7 +15,7 @@ export const data = [
   },
   {
     id: 3,
-    img: "https://ibb.co/wFq2qKrC",
+    img: "https://i.ibb.co/pBTkT3rZ/SATHI-SOS-Emergency-Response-App.png",
     title: "SATHI-SOS - Accident Detection & Emergency Response App",
     link: "https://sathi-sos.vercel.app/",
     git: "https://github.com/subhrapratim07/Sathi-SOS",
@@ -29,7 +29,7 @@ export const data = [
   },
   {
     id: 5,
-    img: "https://ibb.co/39sP2dT5",
+    img: "https://i.ibb.co/S4xZby6D/PETVIBE-AI-Dog-Emotion-Detection.png",
     title: "PETVIBE AI - Dog Emotion Detection Web App",
     link: "https://dog-emotion-detector-spm.netlify.app/",
     git: "https://github.com/subhrapratim07/Dog-Emotion-Detector",

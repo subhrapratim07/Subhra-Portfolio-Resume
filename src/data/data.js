@@ -36,7 +36,7 @@ export const data = [
   },
   {
     id: 6,
-    img: "https://ibb.co/tThGqwcb",
+    img: "https://i.ibb.co/B5PpyHjg/DEAL-AGENT-AI-Marketing-Dashboard.png",
     title: "DEAL-AGENT - AI-Powered Affiliate Marketing & Auto-Posting System",
     link: "https://amazon-deal-bot-2wba.onrender.com/",
     git: "https://github.com/subhrapratim07/amazon-deal-bot",
